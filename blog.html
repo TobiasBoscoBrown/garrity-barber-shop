@@ -24,6 +24,8 @@ tailwind.config = { theme: { extend: {
   html { scroll-behavior:smooth; }
   body { background:#f4efe4; }
   .pole { background:repeating-linear-gradient(135deg,#c8102e 0 14px,#fff 14px 28px,#1f3a5f 28px 42px,#fff 42px 56px); }
+  .logo-garrity { color:#f4efe4; -webkit-text-stroke:1.4px #0a0a0a; paint-order:stroke fill; }
+  .logo-shop { color:#5b8def; }
   .prose-g p { margin-bottom:1.15rem; line-height:1.75; color:#2b2620; }
   .prose-g h2 { font-family:'Bebas Neue',sans-serif; font-size:2.1rem; letter-spacing:.01em; color:#16130f; margin:2.4rem 0 .8rem; }
   .prose-g h3 { font-family:'Oswald',sans-serif; font-weight:600; font-size:1.2rem; color:#16130f; margin:1.6rem 0 .5rem; }
@@ -39,7 +41,7 @@ tailwind.config = { theme: { extend: {
   <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
     <a href="index.html" class="flex items-center gap-3">
       <span class="w-2.5 h-9 rounded-full pole"></span>
-      <span class="font-display text-2xl tracking-wide text-cream leading-none">GARRITY<span class="text-barber"> BARBER SHOP</span></span>
+      <span class="font-display text-2xl tracking-wide leading-none"><span class="logo-garrity">GARRITY</span><span class="text-barber"> BARBER</span><span class="logo-shop"> SHOP</span></span>
     </a>
     <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-cream/80">
       <a href="index.html#services" class="hover:text-cream transition">Services</a>
@@ -155,7 +157,7 @@ tailwind.config = { theme: { extend: {
   <div class="max-w-3xl mx-auto px-5 text-center">
     <div class="flex items-center gap-3 justify-center mb-4">
       <span class="w-2.5 h-9 rounded-full pole"></span>
-      <span class="font-display text-2xl tracking-wide text-cream leading-none">GARRITY<span class="text-barber"> BARBER SHOP</span></span>
+      <span class="font-display text-2xl tracking-wide leading-none"><span class="logo-garrity">GARRITY</span><span class="text-barber"> BARBER</span><span class="logo-shop"> SHOP</span></span>
     </div>
     <p class="text-sm text-cream/70">311 2nd Street South, Nampa, Idaho 83651 &middot; <a href="tel:+12084672331" class="hover:text-barber transition">(208) 467-2331</a></p>
     <p class="text-xs text-cream/45 mt-2">Tuesday to Friday 9am to 5pm &middot; Saturday 9am to 2pm &middot; Walk-ins welcome</p>
@@ -174,12 +176,4 @@ tailwind.config = { theme: { extend: {
   "publisher": {
     "@type": "Organization",
     "name": "Garrity Barber Shop",
-    "logo": { "@type": "ImageObject", "url": "https://garrity-barber-shop.vercel.app/img/sign.jpg" }
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://garrity-barber-shop.vercel.app/blog.html" }
-}
-</script>
-</body>
-</html>
+    "logo": { "@type": "ImageObject", "url": "https://garrity-barber
